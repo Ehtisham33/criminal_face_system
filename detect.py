@@ -16,4 +16,4 @@ def detect_criminal(image_path):
         print("✅ No criminal match found.")
 
 # Example:
-# detect_criminal("uploads/sample_test.jpg")
+detect_criminal(r"uploads\0.jpg")
