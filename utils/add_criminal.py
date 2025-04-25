@@ -13,6 +13,10 @@ def add_criminal(image_path, name, father_name, age, crime):
     print(f"Added criminal with ID {criminal_id}")
 
 # Example usage:
+from db_utils import init_db
+
+init_db()
+
 add_criminal(r"D:\Glaxit Projects\criminal_face_system\known_criminals\1.jpg", "John Doe", "Mark Doe", 32, "Robbery")
 add_criminal(r"D:\Glaxit Projects\criminal_face_system\known_criminals\2.jpg", "John hamza", "Mark Doe", 45, "harrasment")
 add_criminal(r"D:\Glaxit Projects\criminal_face_system\known_criminals\3.jpg", "John usman", "Mark Doe", 35, "degree case")
