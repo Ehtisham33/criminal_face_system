@@ -13,4 +13,8 @@ def add_criminal(image_path, name, father_name, age, crime):
     print(f"Added criminal with ID {criminal_id}")
 
 # Example usage:
-# add_criminal("known_criminals/1.jpg", "John Doe", "Mark Doe", 32, "Robbery")
+add_criminal(r"D:\Glaxit Projects\criminal_face_system\known_criminals\1.jpg", "John Doe", "Mark Doe", 32, "Robbery")
+add_criminal(r"D:\Glaxit Projects\criminal_face_system\known_criminals\2.jpg", "John hamza", "Mark Doe", 45, "harrasment")
+add_criminal(r"D:\Glaxit Projects\criminal_face_system\known_criminals\3.jpg", "John usman", "Mark Doe", 35, "degree case")
+add_criminal(r"D:\Glaxit Projects\criminal_face_system\known_criminals\4.jpg", "John sajawal", "Mark Doe", 34, "pm issue")
+add_criminal(r"D:\Glaxit Projects\criminal_face_system\known_criminals\5.jpg", "John yasir", "Mark Doe", 30, "nasira issue")

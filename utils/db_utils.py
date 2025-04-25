@@ -16,8 +16,7 @@ def init_db(db_path='db/criminal_records.db'):
 def add_criminal_record(name, father_name, age, crime, db_path='db/criminal_records.db'):
     conn = sqlite3.connect(db_path)
     c = conn.cursor()
-    c.execute("INSERT INTO criminals (name, father_name, age, crime) VALUES (?, ?, ?, ?)",
-              (name, father_name, age, crime))
+    c.execute("INSERT INTO criminals (name, father_name, age, crime) VALUES (?, ?, ?, ?)",(name, father_name, age, crime))
     conn.commit()
     criminal_id = c.lastrowid
     conn.close()
